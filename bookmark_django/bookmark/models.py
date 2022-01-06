@@ -7,7 +7,7 @@ from django.urls import reverse
 # 모델의 필드 = 테이블의 컬럼 (열)
 # 인스턴스 = 테이블의 레코드 (행)
 # 필드의 값(인스턴스의 필드값) = 레코드의 컬럼 데이터값 (쉘에 들어있는 실제 값)
-class Bookmark(models.Model):
+class Bookmark(models.Model): # models.Model를 상속받음
     site_name = models.CharField(max_length=100)
     url = models.URLField('Site URL')
     # 필드의 종류가 결정하는 것
