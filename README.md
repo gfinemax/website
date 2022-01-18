@@ -1,1 +1,1 @@
-# website_django ok
+# website_django ok blog
